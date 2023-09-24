@@ -11,8 +11,14 @@ public class ThymeleafController {
 
     @GetMapping("text-basic")
     public String textBasic(Model model) {
-        model.addAttribute("data", "hello spring!");
+        model.addAttribute("data", "Hello Spring!");
         return "thymeleaf/text-basic";
-
     }
+
+    @GetMapping("text-unescaped")
+    public String textUnescaped(Model model) {
+        model.addAttribute("data", "Hello <b>Spring!</b>");
+        return "thymeleaf/text-unescaped";
+    }
+
 }
