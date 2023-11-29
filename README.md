@@ -2,9 +2,13 @@
 Spring Demo Showcase. Adding especially web related specs. 
 
 # project spces
-- Spring Boot 2.7
-- Java 11
+- Spring Boot 3.2.0
+- Java 17
 - Spring Web
+- Spring Data JPA + QueryDSL
+- Spring Data Redis
+- Spring Kafka
 - Lombok
 - Thymeleaf
+- Spring Security
 
